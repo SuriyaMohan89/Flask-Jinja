@@ -5,8 +5,12 @@
 </head>
 <body>
     <form action="/game">
-    Hi {{ person }}! I think you're {{ compliment }}!<br> <br> Would you like to play a game? <br><input type="radio" name="Yes_Game">Yes<input type="radio" name="No_Game">No
-    <br><br><input type="submit" value="Submit">
+        Hi {{ person }}! I think you're {{ compliment }}!<br> <br> 
+        Would you like to play a game? <br>
+        <input type="radio" name="game_yesno" value="yes">Yes
+        <input type="radio" name="game_yesno" value="no">No
+        <br><br>
+        <input type="submit" value="Submit">
     </form>
 
 
